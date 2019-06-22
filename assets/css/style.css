@@ -1,0 +1,29 @@
+
+
+.container {
+    margin-left: 100px;
+    max-width: 260px;
+   
+    
+}
+
+.body {
+max-width: 960px;
+background-color: #4aaaa5;
+text-align: center;
+}
+
+btn .btn-primary {
+    background: #008080;
+    margin: 10px 0px 0px 0px;
+}
+
+.h3 {
+color: #4aaaa5;
+height: 100px;
+}
+
+.p {
+    text-align: center;
+}
+
