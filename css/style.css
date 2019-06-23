@@ -28,7 +28,13 @@ margin: 25px 0px 25px 0px;
 #relative-3 {
     position: relative;
     left: -180px;
-    margin: 25px 0px 0px 0px;
+    margin: 25px 0px 50px 0px;
+}
+
+#relative-4 {
+    position: relative;
+    right: 100px;
+    margin: 20px 0px 25px 100px;
 }
 
 /* .container { */
@@ -37,3 +43,12 @@ margin: 25px 0px 25px 0px;
 
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6666;
+    color: white;
+    text-align: center;
+  }
