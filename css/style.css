@@ -1,0 +1,39 @@
+#absolute {
+position: absolute;
+left: -50px;
+margin: 25px 0px 25px 0px;
+}
+
+#relative {
+    position: relative;
+    margin: 25px 0px 25px 0px;
+}
+    
+.body {
+    width: 960px;
+    background-color: #ffffff;
+}
+
+#relative-1 {
+    position: relative;
+    margin: 25px 0px 0px 13px;
+}
+
+#relative-2 {
+    position: relative;
+    right: -130px;
+    margin: 25px 0px 25px 0px;
+}
+
+#relative-3 {
+    position: relative;
+    left: -180px;
+    margin: 25px 0px 0px 0px;
+}
+
+/* .container { */
+    margin-left: "325px";
+    width: "960px";
+
+}
+
