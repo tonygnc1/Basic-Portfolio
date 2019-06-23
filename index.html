@@ -10,73 +10,91 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>Coding Boot Camp!</title>
-
-  <!-- We link our html to the Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="UTF-8">
+    <title>Coding Boot Camp!</title <!-- We link our html to the Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <!-- Setting up our navbar backgound color and size -->
+        <nav class="navbar navbar-expand-lg navbar-light">
 
-        <div class="container">
-                <!-- Setting up our navbar backgound color and size -->
-                <nav class="navbar navbar-expand-lg navbar-light">
-        
-                    <!-- My name in the navbar Stays on this side when collapsed on a small display-->
-                    <div class="body">
+            <!-- My name in the navbar Stays on this side when collapsed on a small display-->
+
+
+            <p class="h3"
+                style="width:300px; height: 75px; text-align: center; padding: 20px; color: white; text-anchor: middle; background-color: #4aaaa5">
+                Tony Goldsmith</p>
+
+
+
+            <br /><br />
+
+            <div class="col-lg-3"></div>
+
+            <!-- Collapses the menue items to a hamburger on a smaller display -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <!-- Moves the menue to the far left -->
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- Our menue links -->
+                    <ul class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </ul>
+                    <ul class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </ul>
+                    <ul class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </ul>
+                </ul>
+
+        </nav>
+        <!-- <div class="body"> -->
+        <div class="row"></div>
+        <div class="col-12">
+            <div class="h3" style="color: #4aaaa5;">About Me</div>
+
+            <div class="row">
+
+                    <div class="row">
+                            <div class="col-12">
+                                <style>
+                                    .footer {
+                                        position: fixed;
+                                        left: 0;
+                                        bottom: 0;
+                                        width: 100%;
+                                        background-color: #6666;
+                                        color: white;
+                                        text-align: center;
+                                        margin: 25px 0px 0px 0px;
+                                    }
+                                </style>
+
+                                <div class="footer">
+                                    <p>Copyright</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
                     </div>
-        
-                    <p class="h3"
-                        style="width:250px; height: 75px; text-align: center; padding: 15px; color: white; text-anchor: middle; background-color: #4aaaa5">
-                        Tony Goldsmith</p>
-        
-                    <br /><br />
-        
-                    <div class="col-lg-3"></div>
-        
-                    <!-- Collapses the menue items to a hamburger on a smaller display -->
-        
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        
-                        <!-- Moves the menue to the far left -->
-                        <ul class="navbar-nav ml-auto">
-        
-                            <!-- Our menue links -->
-                            <ul class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </ul>
-                            <ul class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </ul>
-                            <ul class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </ul>
-                        </ul>
-        
-                </nav>
-        
-                <div class="row"></div>
-                <div class="col-12">
-                    <div class="h3" style="color: #4aaaa5;">Portfolio</div>
-        
-                    <div class="row"></div>
-                    <div class="col-3">
-                    </div>
-        
-        
-        
-        
-        
-                </div>
-        
-        </body>
-        
-        
-        </html>
+
+</body>
+
+</html>
+
+
+</html>
